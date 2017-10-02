@@ -1,0 +1,148 @@
+header > img {
+  width: 120px;
+}
+
+.bar > img {
+  width: 60px;
+}
+
+.bar {
+  color: white;
+}
+
+nav {
+  background-color: red;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-size: 90%
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+div a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 100%
+}
+
+.bar {
+  display: inline-block;
+  float: right;
+  padding: 50;
+  margin: 0 20px 0 0;
+}
+
+input {
+  width: 1000px;
+  height: 50px;
+  background-color: rgb(31, 82, 111);
+  border-color: grey;
+  color: grey;
+  font-size: 100%;
+}
+
+header {
+  background-color: rgb(32, 101, 136);
+  text-decoration: none
+}
+
+.block {
+  color: white;
+  text-align: justified;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+  background-image: url("assets/buildings-and-billboard.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.block p {
+  margin-right: 10px;
+}
+
+button {
+  color: white;
+  border-radius: 12px;
+}
+
+.orange {
+  background-color: orange;
+  border: 2px solid orange;
+}
+
+.red {
+  background-color: red;
+  border: 2px solid red;
+}
+
+.grey {
+  background-color: grey;
+  border: 2px solid grey;
+}
+
+.collaboration {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  text-align: right;
+  padding: 50px;
+  text-align: center;
+}
+
+.collaboration > div {
+  display: inline-block;
+}
+
+.fellows {
+  background-image: url("assets/collaboration.svg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.whatis {
+  background-color: blue;
+  color: white;
+  text-align: left;
+  padding: 50px;
+}
+
+.what {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.whatcan {
+  text-align: center;
+}
+
+.whatcan article {
+  display: inline-block;
+  width: 200px;
+  height: 75px;
+  margin: 0 auto;
+  border: 3px;
+  text-align: center;
+}
+
+.collaboration a {
+  text-decoration: none;
+  color: white;
+}
