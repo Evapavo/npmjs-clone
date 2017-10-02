@@ -135,6 +135,7 @@ button {
 
 .whatcan article {
   display: inline-block;
+  vertical-align: middle;
   width: 200px;
   height: 75px;
   margin: 0 auto;
