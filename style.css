@@ -1,25 +1,33 @@
-header > img {
-  width: 120px;
+h1 {
+  font-family: "Open sans", "Opensans",sans-serif;
+  font-weight: lighter;
+  font-size: 48px;
 }
 
-.bar > img {
-  width: 60px;
+h2{
+  font-family: "Open sans", "Opensans",sans-serif;
+  font-weight: lighter;
+  font-size: 36px;
 }
 
-.bar {
-  color: white;
+body {
+  font-family: "Open sans", "Opensans",sans-serif;
+  font-weight: lighter;
+  margin: 0px;
+  padding: 0px;
 }
 
 nav {
-  background-color: red;
-  color: rgba(255, 255, 255, 0.8);
-  padding: 10px;
-  font-size: 90%
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 35px;
 }
 
 nav a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255,255,255,0.8);
   text-decoration: none;
+  padding-left: 10px;
 }
 
 .top-links {
@@ -34,26 +42,11 @@ nav a {
   margin: 0 10px;
 }
 
-div a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 100%
-}
-
-.bar {
-  display: inline-block;
-  float: right;
-  padding: 50;
-  margin: 0 20px 0 0;
-}
-
-input {
-  width: 1000px;
-  height: 50px;
-  background-color: rgb(31, 82, 111);
-  border-color: grey;
-  color: grey;
-  font-size: 100%;
+header img {
+  width: 120px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 header {
@@ -61,76 +54,177 @@ header {
   text-decoration: none
 }
 
+.bar {
+  float: right;
+  padding: 50;
+  margin-top: 0 20px 0 0;
+  display: inline-block;
+}
+
+.bar img {
+  width: 45px;
+}
+
+.bar a{
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  width: 1070px;
+  height: 45px;
+  background-color: rgb(31, 82, 111);
+  border-color: grey;
+  color: grey;
+  padding-left: 10px;
+  font-size: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: block;
+  float:left;
+}
+
 .block {
   color: white;
+  font-size: 130%;
   text-align: justified;
   padding-left: 100px;
-  padding-top: 100px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 70px;
   margin: 0 auto;
-  background-image: url("assets/buildings-and-billboard.png");
+  background-image: url("assets/city-scape.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .block p {
-  margin-right: 10px;
+  margin-left: 120px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.block h1 {
+    margin-left: 120px;
+    margin-top: 10px;
 }
 
 button {
   color: white;
-  border-radius: 12px;
+  border-radius: 20px;
 }
 
 .orange {
-  background-color: orange;
+  background-color: rgb(240, 146, 51);
   border: 2px solid orange;
+  margin-left: 120px;
+  margin-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 400;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
 }
 
 .red {
   background-color: red;
   border: 2px solid red;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 400;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
 }
 
 .grey {
   background-color: grey;
   border: 2px solid grey;
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 400;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
 }
 
 .collaboration {
   background-color: rgb(39, 53, 71);
   color: white;
   text-align: right;
-  padding: 50px;
-  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  padding-left: 100px;
+  text-align: left;
 }
 
-.collaboration > div {
-  display: inline-block;
+.fellows-text {
+  margin-left: 760px;
+}
+
+.right {
+  line-height: 2.5;
+}
+
+.collaboration a {
+  text-decoration: none;
+  color: white;
 }
 
 .fellows {
   background-image: url("assets/collaboration.svg");
   background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
+  width: 600px;
+  height: 600px;
+  display: block;
+  float:left;
+  margin-left: 100px;
 }
 
-.whatis {
-  background-color: blue;
+.whatisnpm {
   color: white;
-  text-align: left;
-  padding: 50px;
+  font-size: 100%;
+  text-align: justified;
+  padding-left: 250px;
+  padding-top: 120px;
+  padding-bottom: 160px;
+  margin: 0 auto;
+  background-image: url("assets/forklift.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.what {
-  text-align: center;
-  margin-top: 50px;
+.whatisnpm p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.whatisnpm h1 {
+    margin-left: 120px;
+    margin-top: 10px;
 }
 
 .whatcan {
   text-align: center;
+}
+
+.what-text h2{
+  margin-top: 70px;
+  color: rgb(83, 88, 98);
+}
+
+.whatcan p {
+  color: rgb(135, 145, 156);
+}
+
+.whatcan a {
+  text-decoration: none;
+  color:red;
 }
 
 .whatcan article {
@@ -138,12 +232,9 @@ button {
   vertical-align: middle;
   width: 200px;
   height: 75px;
-  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 250px;
   border: 3px;
   text-align: center;
-}
-
-.collaboration a {
-  text-decoration: none;
-  color: white;
-}
